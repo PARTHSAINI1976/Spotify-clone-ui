@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.navbar{
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    left: 6px;
+    height: 45px;
+    padding: 2px 0 12px 12px;
+}
+
+.mid{
+    margin-left: 410px;
+    margin-top: 3px; 
+}
+
+/* .home{
+    background-color: rgb(54, 52, 52);
+    width: 46px;
+    height: 45px;
+    border-radius: 50%;
+    color: white;
+} */
+
+#search{
+    background-color:rgb(54, 52, 52);
+    border: none;
+    margin-left: 12px;
+    height: 40px;
+    width: 523px;
+    border-radius: 21px;
+    padding-left: 40px;
+    font-size: large;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 32px;
+    margin-left: 220px;
+    width: 330px;
+}
+
+.buttons h4{
+    color: rgb(117, 106, 106);
+    font-size: medium;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.buttons h4:hover{
+    color: white;
+    font-size: large;
+}
+.buttons button{
+    height: 41px;
+    width: 100px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    height: 47px;
+    
+}
+
+.sidebar{
+    margin:5px 0 0 14px;
+    background-color: rgba(22, 20, 20, 0.781);
+    color: white;
+    height: 605px ;
+    width: 400px;
+    border-radius: 5px;
+}
+.sidebar h2{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-family: sans-serif;
+    color: rgb(117, 106, 106);
+}
+
+.playlist{
+    height: 140px;
+    width: 380px;
+    border-radius: 5px;
+    margin: 20px 0 0 10px;
+    background-color: rgba(44, 41, 41, 0.405);
+}
+
+.playlist h4{
+    padding-top: 14px;
+    padding-left: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.playlist p{
+    padding-top: 14px;
+    padding-left: 15px;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.playlist button{
+    margin-top: 22px;
+    margin-left: 15px;
+    height: 35px;
+    width: 120px;
+    border-radius: 80px;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+.playlist button:hover{
+    height: 36px;
+    width: 122px;
+    border: none;
+}
+
+.podcast{
+    height: 140px;
+    width: 380px;
+    border-radius: 5px;
+    margin: 20px 0 0 10px;
+    background-color: rgba(44, 41, 41, 0.405);
+}
+
+.podcast h4{
+    padding-top: 14px;
+    padding-left: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.podcast p{
+    padding-top: 14px;
+    padding-left: 15px;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.podcast button{
+    margin-top: 22px;
+    margin-left: 15px;
+    height: 35px;
+    width: 130px;
+    border-radius: 80px;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+.podcast button:hover{
+    height: 36px;
+    width: 132px;
+    border: none;
+}
+
+.asidefoot{
+    margin-top: 20px;
+    height: 220px;
+    padding: 22px 0 0 1px;
+}
+
+.ul1{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: rgba(114, 106, 106, 0.908);
+    gap: 25px;
+    font-family: sans-serif;
+    list-style: none;
+    cursor: pointer;
+}
+.ul2{
+    display: flex;
+    padding-top: 9px;
+    color: rgba(114, 106, 106, 0.908);
+    padding-left: 22px;
+    font-size: 12px;
+    gap: 25px;
+    font-family: sans-serif;
+    list-style: none;
+    cursor: pointer;
+}
+.asidefoot h5{
+    margin-top: 12px;
+    margin-left: 22px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgba(237, 227, 227, 0.908);
+    cursor: pointer;
+}
+
+.asidefoot h5:hover{
+    text-decoration: underline;
+}
+
+.main{
+    display: flex;
+}
+
+.rightp{
+    margin:5px 0 0 14px;
+    background-color: rgba(22, 20, 20, 0.781);
+    color: white;
+    height: 605px ;
+    width: 1082px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.rightp h2{
+    font-family: sans-serif;
+    padding-left: 25px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+.rightp h2:hover{
+    text-decoration: underline;
+}
+
+.cardul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin-top: 25px;
+    margin-left: 5px;
+    height: 265px;
+    border-radius: 5px;
+}
+.card:hover{
+    background-color: rgba(41, 20, 20, 0.816);
+    cursor: pointer;
+}
+
+.a1{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 25px 0 0 15px;
+}
+
+.a_name{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: large;
+    font-family: sans-serif;
+}
+.a_qual{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    color: rgba(114, 106, 106, 0.908);
+}
+
+.alb1{
+        border-radius: 2px;
+        height: 150px;
+        width: 150px;
+        margin: 12px 0 0 15px;
+}
+
+.alb_name{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.alb_auth{
+    margin-left: 15px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-size: small;
+    color: rgba(114, 106, 106, 0.908);
+}
+
+.footer{
+    height: 260px ;
+    width: 1020px;
+    margin:35px 0 0 24px;
+    display: flex;
+    gap: 12px;
+}
+
+.footer div{
+    height: 210px;
+    width: 250px;
+}
+
+.footer div h4{
+margin: 12px 0 0 12px;
+font-size: large;
+font-weight: bold;
+font-family: sans-serif;
+}
+
+.footer div ul{
+    list-style: none;
+    margin: 12px 0 0 12px;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.footer div li{
+    margin-top: 12px;
+    color: rgba(114, 106, 106, 0.908);
+}
+
+.navhr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.copyrght{
+    margin: 21px 0 0 21px;
+    color: rgba(232, 220, 220, 0.908);
+    font-family: sans-serif;
+    height: 120px;
+}
